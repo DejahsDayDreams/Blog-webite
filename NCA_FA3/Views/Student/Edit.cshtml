@@ -1,0 +1,72 @@
+﻿@model NCA_FA3.Models.Student
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monstrous Musings</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+
+</head>
+<body >
+    <br />
+    <br />
+    
+<h1>Edit</h1>
+
+    <div class="container-posts ">
+<h4>BlogPost</h4>
+<hr />
+<div class="row ">
+    <div class="col-md-12">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+
+            <input type="hidden" asp-for="PostID" />
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Content" class="control-label"></label>
+                <textarea asp-for="Content" class="form-control" rows="7"></textarea>
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PublicationDate" class="control-label"></label>
+                <input asp-for="PublicationDate" class="form-control" />
+                <span asp-validation-for="PublicationDate" class="text-danger"></span>
+                       
+                    </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                    </div><br />
+                </form>
+                <div class="links">
+                    
+                    <a asp-action="Index">Back to Posts</a>
+                </div>
+            </div>
+</div>
+</div>
+   
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }
+    <br />
+    <br />
+    <br />
+    <br />
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+#logo{
+    width:8%;
+}
+
+nav {
+    padding: 15px;
+    height: 100px;
+    font-size: 24px;
+    font-weight: bolder;
+    border: none;
+    background-color: #0c3027;
+}
+
+
+.nav-links-container .nav-item a.nav-link {
+    color: #ffffff;
+    padding: 15px;
+    justify-content: left;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.2s, color 0.2s;
+    text-shadow: 0 0 5px rgba(189, 31, 54, 0);
+    font-family: 'Creepster', sans-serif;
+}
+
+    /* Add hover effect to navigation links */
+    .nav-links-container .nav-item a.nav-link:hover {
+        color: #e01e37;
+        transform: scale(1.2);
+        text-shadow: 0 0 8px rgba(189, 31, 54, 0.7);
+    }
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #132621;
+    font-family: Arial, sans-serif;
+}
+
+.header-image {
+    background-image: url('../img/img3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 77vh; /* Set the image height to the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    vertical-align: top;
+    box-shadow: 0 0 80px rgba(189, 31, 54, 0.7) ;
+    border-radius: 10px;
+    border: 5px solid #e01e37;
+}
+
+#top-title {
+    font-family: 'Creepster', sans-serif;
+    font-size: 8vw;
+    text-shadow: 0 0 25px #000;
+    margin-bottom: 5%;
+}
+
+.main-content {
+    
+    margin-bottom: 6%;
+    vertical-align: middle;
+    border: none;
+   
+   
+}
+h2 {
+    font-family: 'Creepster', sans-serif;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Creepster', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 8vw; 
+}
+
+h4 {
+    text-align: center;
+    font-weight: bold;
+    color: #0C1A16ff;
+
+}
+
+.blog-title {
+    font-size: 6vw;
+}
+
+#slogan {
+    font-size: 3vw;
+    font-family: 'Creepster', sans-serif;
+    color: #fff;
+    text-shadow: 0 0 25px #000;
+}
+
+.container {
+    max-width: 1500px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the content horizontally */
+    border: none;
+    height: 100vh;
+}
+
+.btn {
+    margin: 2%;
+    justify-content:center;
+    border-radius: 15px;
+    display:flex;
+}
+
+.card {
+    border-radius: 26px;
+    box-shadow: 0 0 15px rgba(189, 31, 54, 0.7);
+    border: 3px solid #99c388;
+}
+
+.container-posts {
+    border-radius: 26px;
+    box-shadow: 0 0 15px rgba(189, 31, 54, 0.7)inset;
+    border: 3px solid #e01e37;
+    padding: 20px;
+    background-color: #fff;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.links a {
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+    list-style: none;
+    background-color: #e01e37;
+    padding: 10px;
+    border-radius: 13px;
+    border: 3px solid #e01e37;
+    margin-left:2%;
+}
+
+.links :hover {
+    color: #fff;
+    background-color: #ef6351;
+    text-decoration: none;
+    list-style: none;
+}
+
+.form-control {
+    box-shadow: 0 0 8px rgba(189, 31, 54, 0.7)inset;
+    background-color: #e5ffe1;
+}
+
+label{
+    font-weight:bold;
+    margin-top:1%;
+}

@@ -1,0 +1,61 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NCA_FA3
+build_property.RootNamespace = NCA_FA3
+build_property.ProjectDir = C:\Users\SammyAntha\Desktop\CTU 2023\NCA522\FA3\Samantha Dejah Kitchener_20231142_NCA FA3\NCA_FA3\NCA_FA3\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\SammyAntha\Desktop\CTU 2023\NCA522\FA3\Samantha Dejah Kitchener_20231142_NCA FA3\NCA_FA3\NCA_FA3
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/SammyAntha/Desktop/CTU 2023/NCA522/FA3/Samantha Dejah Kitchener_20231142_NCA FA3/NCA_FA3/NCA_FA3/Views/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SammyAntha/Desktop/CTU 2023/NCA522/FA3/Samantha Dejah Kitchener_20231142_NCA FA3/NCA_FA3/NCA_FA3/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SammyAntha/Desktop/CTU 2023/NCA522/FA3/Samantha Dejah Kitchener_20231142_NCA FA3/NCA_FA3/NCA_FA3/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SammyAntha/Desktop/CTU 2023/NCA522/FA3/Samantha Dejah Kitchener_20231142_NCA FA3/NCA_FA3/NCA_FA3/Views/Student/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SammyAntha/Desktop/CTU 2023/NCA522/FA3/Samantha Dejah Kitchener_20231142_NCA FA3/NCA_FA3/NCA_FA3/Views/Student/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SammyAntha/Desktop/CTU 2023/NCA522/FA3/Samantha Dejah Kitchener_20231142_NCA FA3/NCA_FA3/NCA_FA3/Views/Student/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SammyAntha/Desktop/CTU 2023/NCA522/FA3/Samantha Dejah Kitchener_20231142_NCA FA3/NCA_FA3/NCA_FA3/Views/Student/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SammyAntha/Desktop/CTU 2023/NCA522/FA3/Samantha Dejah Kitchener_20231142_NCA FA3/NCA_FA3/NCA_FA3/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SammyAntha/Desktop/CTU 2023/NCA522/FA3/Samantha Dejah Kitchener_20231142_NCA FA3/NCA_FA3/NCA_FA3/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SammyAntha/Desktop/CTU 2023/NCA522/FA3/Samantha Dejah Kitchener_20231142_NCA FA3/NCA_FA3/NCA_FA3/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SammyAntha/Desktop/CTU 2023/NCA522/FA3/Samantha Dejah Kitchener_20231142_NCA FA3/NCA_FA3/NCA_FA3/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-v7z4ref3ot

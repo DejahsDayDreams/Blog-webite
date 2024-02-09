@@ -1,0 +1,87 @@
+﻿@model List<NCA_FA3.Models.Student>
+
+@{
+    ViewBag.Title = "Blog Posts";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student information</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    
+</head>
+<body>
+    <br />
+    
+
+    <div class="header-image">
+        <h1 id="top-title" class="custom-font">Monstrous Musings</h1>
+        <h3 id="slogan">Gather 'Round the Horror Hearth: Films and Haunting Heirlooms Await!</h3>
+    </div>
+    <br />
+
+    <div class="main-content">
+        <br />
+        <div class="container">
+            <h1 class="blog-title">Blog Posts</h1><br />
+
+            <!-- Add a "Create" button -->
+            <p class="links">
+                @Html.ActionLink("Create New", "Create", "Blog")
+            </p>
+            <br />
+            <div class="row">
+                @if (Model != null)
+                {
+                    foreach (var item in Model)
+                    {
+                        if (item != null)
+                        {
+                            <div class="col-md-4">
+                                <div class="card mb-4">
+                                    <div class="card-body">
+                                        <h5 class="card-title">@item.Title</h5>
+
+                                        <!-- Display a short description of the post -->
+                                        <p class="card-text">@TruncateText(item.Content, 150)</p>
+
+                                        <p class="card-text">Publication Date: @item.PublicationDate.ToShortDateString()</p>
+                                        <div class="btn-group justify-content-between">
+                                            @Html.ActionLink("Details", "Details", new { id = item.PostID }, new { @class = "btn btn-primary " })
+                                            @Html.ActionLink("Edit", "Edit", new { id = item.PostID }, new { @class = "btn btn-secondary " })
+                                            @Html.ActionLink("Delete", "Delete", new { id = item.PostID }, new { @class = "btn btn-danger " })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                }
+
+                @functions {
+                    // Helper function to truncate text
+                    public string TruncateText(string text, int maxLength)
+                    {
+                        if (text.Length <= maxLength)
+                        {
+                            return text;
+                        }
+                        else
+                        {
+                            return text.Substring(0, maxLength) + "...";
+                        }
+                    }
+                }
+            </div>
+        </div>
+    </div>
+   
+
+
+</body>
+</html>

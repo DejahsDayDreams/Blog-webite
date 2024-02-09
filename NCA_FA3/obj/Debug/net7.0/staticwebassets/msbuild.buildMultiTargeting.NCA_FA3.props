@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NCA_FA3.props" />
+</Project>
